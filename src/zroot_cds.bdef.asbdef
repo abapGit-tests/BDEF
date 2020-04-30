@@ -1,0 +1,12 @@
+unmanaged implementation in class zcl_bp_root_cds unique;
+
+define behavior for zroot_cds //alias <alias_name>
+//late numbering
+//lock master
+//authorization master
+//etag <field_name>
+{
+  create;
+  update;
+  delete;
+}
